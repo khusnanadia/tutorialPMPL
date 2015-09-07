@@ -5,4 +5,4 @@ from django.http import HttpResponse
 #home_page = None
 def home_page(request):
 	#pass
-	return HttpResponse('<html><title>To-Do lists</title></html>')
+	return HttpResponse('<html><title>To-Do lists</title><body><h1>Nama saya Khusna Nadia</h1></body></html>')
